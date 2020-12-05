@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".updatedata">
+
+  <TextView
+      android:id="@+id/fstTxt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="20dp"
+      android:text="Full Name" />
+
+  <EditText
+      android:id="@+id/name"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:ems="10" />
+
+  <TextView
+      android:id="@+id/secTxt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:text="Email" />
+
+  <EditText
+      android:id="@+id/email"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:ems="10" />
+
+  <TextView
+      android:id="@+id/addr"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:text="Address" />
+
+  <EditText
+      android:id="@+id/address"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:ems="10" />
+
+  <TextView
+      android:id="@+id/dat"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:text="Phone No" />
+
+  <EditText
+      android:id="@+id/pno"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:ems="10"
+      android:inputType="number"/>
+
+  <TextView
+      android:id="@+id/thirdTxt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:text="Date Of Birth" />
+
+  <EditText
+      android:id="@+id/date"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:ems="10" />
+
+  <Button
+      android:id="@+id/insert"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:layout_marginTop="20dp"
+      android:text="Insert" />
+
+  <Button
+      android:id="@+id/update"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:layout_marginTop="20dp"
+      android:text="Update"
+      android:visibility="gone"/>
+
+  <ProgressBar
+      android:id="@+id/pBar"
+      style="?android:attr/progressBarStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:visibility="gone" />
+
+
+</LinearLayout>
